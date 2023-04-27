@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/planets-app/static/css/main.5c26926d.css",
+    "main.js": "/planets-app/static/js/main.7e946107.js",
+    "static/media/earth.png": "/planets-app/static/media/earth.f76f9f7a868dc35e8e1a.png",
+    "static/media/jupiter.png": "/planets-app/static/media/jupiter.827272d739d22ef3355e.png",
+    "static/media/venus.png": "/planets-app/static/media/venus.6542e310643a54a6a782.png",
+    "static/media/mercury.png": "/planets-app/static/media/mercury.2b4e2895b24b39d200cc.png",
+    "static/media/background-stars.jpg": "/planets-app/static/media/background-stars.8995d8c0ab185b092730.jpg",
+    "static/media/mars.png": "/planets-app/static/media/mars.41ec05a36e5e2367cef8.png",
+    "static/media/saturn.png": "/planets-app/static/media/saturn.81f502af6ba95fc286e3.png",
+    "static/media/uranus.png": "/planets-app/static/media/uranus.6796b066989ea4d201bc.png",
+    "index.html": "/planets-app/index.html",
+    "main.5c26926d.css.map": "/planets-app/static/css/main.5c26926d.css.map",
+    "main.7e946107.js.map": "/planets-app/static/js/main.7e946107.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5c26926d.css",
+    "static/js/main.7e946107.js"
+  ]
+}
