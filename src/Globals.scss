@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,700;1,400&display=swap');
+@import './variables.scss';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+    overflow-y: hidden;
+
+    @include media-lg{
+        overflow-y: auto;
+    }
+}
+
+.app{
+    height: 100vh;
+    background: url('./img/background-stars.jpg');
+    background-size: cover;
+    font-family: 'Rubik', sans-serif;
+    color:$color;
+
+    @include media-lg {
+        height: auto;
+    }
+
+}
+
+
+

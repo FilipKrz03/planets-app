@@ -1,0 +1,32 @@
+$color : #edf6f9;
+$organge-color : #f77f00;
+$darkblue-color : #000129d3;
+$font-l : 20px;
+$font-xl : 36px;
+$border-color: rgba(211, 211, 211, 0.567);
+$color-violet :#480ca8ac;
+
+
+@mixin media-tablet {
+    @media screen and (max-width:1000px){
+        @content;
+    }
+}
+
+@mixin media-phone {
+    @media screen and (max-width:685px){
+        @content;
+    }
+}
+
+@mixin media-lg {
+    @media screen and (max-width:1200px){
+        @content;
+    }
+}
+
+@mixin media-xs {
+    @media screen and (max-width:440px){
+        @content;
+    }
+}

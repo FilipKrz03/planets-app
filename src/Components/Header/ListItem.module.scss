@@ -1,0 +1,27 @@
+@import '../../variables.scss';
+
+li{
+    cursor: pointer;
+    font-size: $font-l;
+    position: relative;
+
+   &::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    bottom: -10px;
+    left: 0;
+    background-color: $organge-color;
+    transform: scale(0);
+    transition: 300ms ease-in-out;
+   }
+
+   &.active{
+
+    &::before{
+        transform: scale(1);
+    }
+   }
+
+}
